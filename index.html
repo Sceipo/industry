@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="sceipo/⁠​‌‌‌​​‌‌​‌‌​​​‌‌​‌‌​​‌​‌​‌‌​‌​​‌​‌‌‌​​​​​‌‌​‌‌‌‌​​‌​‌‌‌‌​‌‌‌​‌​​​‌‌‌​‌‌‌​‌‌​​‌​‌​‌‌​‌‌‌​​‌‌‌​‌​​​‌‌‌‌​​‌⁠twenty (JScratch Engine)">
+    <meta name="generator" content="JScratch Engine">
+    <title>Industry</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/jscratch.svg">
+    <style>
+        :root { color-scheme: dark; font: 15px/1.5 system-ui, sans-serif; }
+        * { box-sizing: border-box; }
+        html, body { width: 100%; height: 100%; margin: 0; }
+        body { display: grid; place-items: center; overflow: hidden; background: #000; color: #f4f7ff; }
+        #stage { display: block; width: min(100vw, calc(100vh * 16 / 9));
+            height: auto; aspect-ratio: 16 / 9; background: #000; }
+    </style>
+</head>
+<body>
+    <canvas id="stage" width="2560" height="1440" aria-label="JScratch stage"></canvas>
+    <script src="./vscratch.js"></script>
+    <script>
+        const config = {"width":2560,"height":1440,"costumeCount":70,"soundCount":33,"gameName":"Industry","duration":3600};
+        console.log("You are playing the project based on the JScratch Engine. It created by sceipo/twenty (https://github.com/Sceipo & https://www.ccw.site/student/65f8238ca65f1229b0d8c776), please support me. Wish you a pleasant gaming experience.");
+        globalThis.VScratch.ready
+            .then(() => globalThis.VScratch.showIntro(config))
+            .then(() => {
+                globalThis.VScratch.disposeIntro();
+                const script = document.createElement("script");
+                script.src = "./game.js";
+                script.onerror = () => console.error("Unable to load game.js");
+                document.body.append(script);
+            })
+            .catch(error => {
+                globalThis.VScratch.disposeIntro();
+                console.error("Unable to start JScratch game:", error);
+            });
+        window.addEventListener("keydown", event => {
+            if (event.shiftKey && (event.key === "Tab" || event.code === "Tab")) {
+                event.preventDefault();
+                event.stopImmediatePropagation();
+                globalThis.VScratch.downloadScreenshot().catch(error =>
+                    console.error("[VScratch screenshot] capture failed", {
+                        error,
+                        width: globalThis.VScratch.canvas.width,
+                        height: globalThis.VScratch.canvas.height,
+                        contextLost: globalThis.VScratch.canvas.getContext("webgl2")?.isContextLost(),
+                        preserveDrawingBuffer: globalThis.VScratch.canvas.getContext("webgl2")
+                            ?.getContextAttributes()?.preserveDrawingBuffer,
+                    })
+                );
+            }
+        }, {capture: true});
+    </script>
+</body>
+</html>

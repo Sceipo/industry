@@ -1,0 +1,832 @@
+{
+  "variables": {},
+  "lists": {},
+  "costumes": [
+    {
+      "name": "weapon_riveter",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 10.338615417480469,
+      "rotationCenterY": 9.096565246582031,
+      "path": "media/costumes/target-0-0.svg"
+    },
+    {
+      "name": "bullet_rivet",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 4.782244777275537,
+      "rotationCenterY": 1.715285383737978,
+      "path": "media/costumes/target-0-1.svg"
+    },
+    {
+      "name": "weapon_grinder",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 10.571789144321315,
+      "rotationCenterY": 9.263963488372127,
+      "path": "media/costumes/target-0-2.svg"
+    },
+    {
+      "name": "bullet_grinder",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 22.416170000000022,
+      "rotationCenterY": 6.185040000000015,
+      "path": "media/costumes/target-0-3.svg"
+    },
+    {
+      "name": "weapon_welder",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 11.588504081989015,
+      "rotationCenterY": 6.704491542442099,
+      "path": "media/costumes/target-0-4.svg"
+    },
+    {
+      "name": "bullet_welder",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 4,
+      "rotationCenterY": 2,
+      "path": "media/costumes/target-0-5.svg"
+    },
+    {
+      "name": "weapon_coilgun",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 8.899999999999977,
+      "rotationCenterY": 6.149999999999977,
+      "path": "media/costumes/target-0-6.svg"
+    },
+    {
+      "name": "bullet_coil",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 13.454617800657502,
+      "rotationCenterY": 3.451851851851785,
+      "path": "media/costumes/target-0-7.svg"
+    },
+    {
+      "name": "weapon_flak",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 11.299999999999955,
+      "rotationCenterY": 9.849999999999994,
+      "path": "media/costumes/target-0-8.svg"
+    },
+    {
+      "name": "bullet_flak",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 4.72757955641282,
+      "rotationCenterY": 2.721567560151186,
+      "path": "media/costumes/target-0-9.svg"
+    },
+    {
+      "name": "weapon_arc",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 11.799999999999955,
+      "rotationCenterY": 7.25,
+      "path": "media/costumes/target-0-10.svg"
+    },
+    {
+      "name": "bullet_arc",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 42.39227217930869,
+      "rotationCenterY": 13.681979555230185,
+      "path": "media/costumes/target-0-11.svg"
+    },
+    {
+      "name": "bullet_shard",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 9.947887879984137,
+      "rotationCenterY": 4.973943939992097,
+      "path": "media/costumes/target-0-12.svg"
+    },
+    {
+      "name": "bullet_hex",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 5,
+      "rotationCenterY": 6.101719549713636,
+      "path": "media/costumes/target-0-13.svg"
+    },
+    {
+      "name": "elite_mark",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 30.698721653122334,
+      "rotationCenterY": 32.09180147342241,
+      "path": "media/costumes/target-0-14.svg"
+    },
+    {
+      "name": "tile_ventilation_grate",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 20,
+      "rotationCenterY": 20,
+      "path": "media/costumes/target-0-15.svg"
+    },
+    {
+      "name": "tile_tread_plate",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 20,
+      "rotationCenterY": 20,
+      "path": "media/costumes/target-0-16.svg"
+    },
+    {
+      "name": "tile_selector",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 19.965755462646484,
+      "rotationCenterY": 19.965755462646484,
+      "path": "media/costumes/target-0-17.svg"
+    },
+    {
+      "name": "tile_seam_armor",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 20,
+      "rotationCenterY": 20,
+      "path": "media/costumes/target-0-18.svg"
+    },
+    {
+      "name": "tile_rivet_plate",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 20,
+      "rotationCenterY": 20,
+      "path": "media/costumes/target-0-19.svg"
+    },
+    {
+      "name": "tile_floor",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 23.500110000000006,
+      "rotationCenterY": 23.500110000000006,
+      "path": "media/costumes/target-0-20.svg"
+    },
+    {
+      "name": "entity_slag0",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 13.781700134277344,
+      "rotationCenterY": 14.37405014038086,
+      "path": "media/costumes/target-0-21.svg"
+    },
+    {
+      "name": "entity_slag1",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 13.440770149230957,
+      "rotationCenterY": 13.99254035949707,
+      "path": "media/costumes/target-0-22.svg"
+    },
+    {
+      "name": "entity_slag2",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 14.262959999999964,
+      "rotationCenterY": 13.722444999999993,
+      "path": "media/costumes/target-0-23.svg"
+    },
+    {
+      "name": "entity_spark",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 14.8161649797795,
+      "rotationCenterY": 29.02043119791668,
+      "path": "media/costumes/target-0-24.svg"
+    },
+    {
+      "name": "entity_rust",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 19.07164031620556,
+      "rotationCenterY": 19.071640316205475,
+      "path": "media/costumes/target-0-25.svg"
+    },
+    {
+      "name": "entity_shrapnel0",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 18.27777777777777,
+      "rotationCenterY": 23.703703703703752,
+      "path": "media/costumes/target-0-26.svg"
+    },
+    {
+      "name": "entity_shrapnel1",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 20.74074074074082,
+      "rotationCenterY": 19.444444444444485,
+      "path": "media/costumes/target-0-27.svg"
+    },
+    {
+      "name": "entity_shrapnel2",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 18.518518518518533,
+      "rotationCenterY": 19.841269841269877,
+      "path": "media/costumes/target-0-28.svg"
+    },
+    {
+      "name": "entity_fume",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 22.555555555555543,
+      "rotationCenterY": 26.14942673471475,
+      "path": "media/costumes/target-0-29.svg"
+    },
+    {
+      "name": "fume_cloud",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 31.5,
+      "rotationCenterY": 31.5,
+      "path": "media/costumes/target-0-30.svg"
+    },
+    {
+      "name": "entity_piston_close",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 24.050724637681128,
+      "rotationCenterY": 21.75,
+      "path": "media/costumes/target-0-31.svg"
+    },
+    {
+      "name": "entity_piston_open",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 24.05073500000003,
+      "rotationCenterY": 21.75000000000003,
+      "path": "media/costumes/target-0-32.svg"
+    },
+    {
+      "name": "entity_iron",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 36.22138650618558,
+      "rotationCenterY": 35.78200280512198,
+      "path": "media/costumes/target-0-33.svg"
+    },
+    {
+      "name": "entity_mortar",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 22.600000000000023,
+      "rotationCenterY": 22.599999999999994,
+      "path": "media/costumes/target-0-34.svg"
+    },
+    {
+      "name": "entity_relay",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 26.899999999999977,
+      "rotationCenterY": 26.900000000000006,
+      "path": "media/costumes/target-0-35.svg"
+    },
+    {
+      "name": "entity_hexer",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 21.347318977236966,
+      "rotationCenterY": 22.943180931469726,
+      "path": "media/costumes/target-0-36.svg"
+    },
+    {
+      "name": "enemy_death",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 20.00000000000017,
+      "rotationCenterY": 19.99999999999997,
+      "path": "media/costumes/target-0-37.svg"
+    },
+    {
+      "name": "entity_cog",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 15.965225000000146,
+      "rotationCenterY": 15.965264999999988,
+      "path": "media/costumes/target-0-38.svg"
+    },
+    {
+      "name": "menu_title",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 195.47580058593746,
+      "rotationCenterY": 63.00674999999998,
+      "path": "media/costumes/target-0-39.svg"
+    },
+    {
+      "name": "menu_background",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 371.9405964405961,
+      "rotationCenterY": 209.43533549783592,
+      "path": "media/costumes/target-0-40.svg"
+    },
+    {
+      "name": "menu_button",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 70.53631229859633,
+      "rotationCenterY": 17.792408211663997,
+      "path": "media/costumes/target-0-41.svg"
+    },
+    {
+      "name": "conveyor_segment",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 36.05211000000003,
+      "rotationCenterY": 37.42749499999999,
+      "path": "media/costumes/target-0-42.svg"
+    },
+    {
+      "name": "spark_fx",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 7.776317299324774,
+      "rotationCenterY": 2.249999782445599,
+      "path": "media/costumes/target-0-43.svg"
+    },
+    {
+      "name": "module_card_salvage_drone",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 47.99998499999998,
+      "rotationCenterY": 71.99996499999999,
+      "path": "media/costumes/target-0-44.svg"
+    },
+    {
+      "name": "module_card_magnet",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 48,
+      "rotationCenterY": 72,
+      "path": "media/costumes/target-0-45.svg"
+    },
+    {
+      "name": "module_card_lubricant",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 48,
+      "rotationCenterY": 72,
+      "path": "media/costumes/target-0-46.svg"
+    },
+    {
+      "name": "module_card_foreman",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 48,
+      "rotationCenterY": 72,
+      "path": "media/costumes/target-0-47.svg"
+    },
+    {
+      "name": "module_card_coolant",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 48,
+      "rotationCenterY": 72,
+      "path": "media/costumes/target-0-48.svg"
+    },
+    {
+      "name": "module_card_bearings",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 48,
+      "rotationCenterY": 72,
+      "path": "media/costumes/target-0-49.svg"
+    },
+    {
+      "name": "upgrade_card_common",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 56,
+      "rotationCenterY": 70,
+      "path": "media/costumes/target-0-50.svg"
+    },
+    {
+      "name": "upgrade_card_refined",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 56,
+      "rotationCenterY": 70,
+      "path": "media/costumes/target-0-51.svg"
+    },
+    {
+      "name": "upgrade_card_rare",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 56,
+      "rotationCenterY": 70,
+      "path": "media/costumes/target-0-52.svg"
+    },
+    {
+      "name": "upgrade_card_forbidden",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 56,
+      "rotationCenterY": 70,
+      "path": "media/costumes/target-0-53.svg"
+    },
+    {
+      "name": "action_button",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 71,
+      "rotationCenterY": 23,
+      "path": "media/costumes/target-0-54.svg"
+    },
+    {
+      "name": "scrap_icon",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 11.208050000000014,
+      "rotationCenterY": 11.895550000000014,
+      "path": "media/costumes/target-0-55.svg"
+    },
+    {
+      "name": "scrap_pickup",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 11.208050000000014,
+      "rotationCenterY": 6.854440000000011,
+      "path": "media/costumes/target-0-56.svg"
+    },
+    {
+      "name": "telegraph_slam",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 15.888103247407628,
+      "rotationCenterY": 15.888103247407798,
+      "path": "media/costumes/target-0-57.svg"
+    },
+    {
+      "name": "telegraph_dash",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 47.88002646732275,
+      "rotationCenterY": 16.742866595472492,
+      "path": "media/costumes/target-0-58.svg"
+    },
+    {
+      "name": "telegraph_bite",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 23.89623499999999,
+      "rotationCenterY": 23.896224999999987,
+      "path": "media/costumes/target-0-59.svg"
+    },
+    {
+      "name": "hazard_impact",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 16.80408925289987,
+      "rotationCenterY": 16.374592199327537,
+      "path": "media/costumes/target-0-60.svg"
+    },
+    {
+      "name": "weapon_card",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 40.5,
+      "rotationCenterY": 60.499999999999886,
+      "path": "media/costumes/target-0-61.svg"
+    },
+    {
+      "name": "entity_mortar (1)",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/costumes/target-0-62.svg"
+    },
+    {
+      "name": "salvage_drone_bolt",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 37.5,
+      "rotationCenterY": 15.499999999999915,
+      "path": "media/costumes/target-0-63.svg"
+    },
+    {
+      "name": "salvage_drone",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 32,
+      "rotationCenterY": 32,
+      "path": "media/costumes/target-0-64.svg"
+    },
+    {
+      "name": "magnet_arc",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 20.460199298378996,
+      "rotationCenterY": 7.473684210526244,
+      "path": "media/costumes/target-0-65.svg"
+    },
+    {
+      "name": "repair_pulse",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 39.144939271255055,
+      "rotationCenterY": 39.144939271255055,
+      "path": "media/costumes/target-0-66.svg"
+    },
+    {
+      "name": "relay_shield_pulse",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 35.144939271255,
+      "rotationCenterY": 40.490314543755915,
+      "path": "media/costumes/target-0-67.svg"
+    },
+    {
+      "name": "enemy_hit_sparks",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 3.6559187935399677,
+      "rotationCenterY": 7.166454900195362,
+      "path": "media/costumes/target-0-68.svg"
+    },
+    {
+      "name": "save_card",
+      "dataFormat": "svg",
+      "bitmapResolution": 1,
+      "rotationCenterX": 70.50943307759394,
+      "rotationCenterY": 110.63859031826672,
+      "path": "media/costumes/target-0-69.svg"
+    }
+  ],
+  "sounds": [
+    {
+      "name": "impact",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-0.wav"
+    },
+    {
+      "name": "menu_bgm",
+      "dataFormat": "mp3",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-1.mp3"
+    },
+    {
+      "name": "menu_spark",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-2.wav"
+    },
+    {
+      "name": "ui_hover",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-3.wav"
+    },
+    {
+      "name": "ui_reject",
+      "dataFormat": "mp3",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-4.mp3"
+    },
+    {
+      "name": "riveter_fire",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-5.wav"
+    },
+    {
+      "name": "grinder_loop",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-6.wav"
+    },
+    {
+      "name": "grinder_loop2",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-7.wav"
+    },
+    {
+      "name": "welder_loop",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-8.wav"
+    },
+    {
+      "name": "coilgun_fire",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-9.wav"
+    },
+    {
+      "name": "flak_burst",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-10.wav"
+    },
+    {
+      "name": "arc_discharge",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-11.wav"
+    },
+    {
+      "name": "player_hit",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-12.wav"
+    },
+    {
+      "name": "enemy_hit",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-13.wav"
+    },
+    {
+      "name": "elite_spawn",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-14.wav"
+    },
+    {
+      "name": "dodge",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-15.wav"
+    },
+    {
+      "name": "enemy_death",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-16.wav"
+    },
+    {
+      "name": "scrap_pickup",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-17.wav"
+    },
+    {
+      "name": "coolant_burst",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-18.wav"
+    },
+    {
+      "name": "lubricant_dash",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-19.wav"
+    },
+    {
+      "name": "bearing_break",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-20.wav"
+    },
+    {
+      "name": "magnet_arc",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-21.wav"
+    },
+    {
+      "name": "drone_strike",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-22.wav"
+    },
+    {
+      "name": "iteration_buy",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-23.wav"
+    },
+    {
+      "name": "mortar_fire",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-24.wav"
+    },
+    {
+      "name": "hex_impact",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-25.wav"
+    },
+    {
+      "name": "frenzy_alarm",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-26.wav"
+    },
+    {
+      "name": "wave_start",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-27.wav"
+    },
+    {
+      "name": "relay_pulse",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-28.wav"
+    },
+    {
+      "name": "hex_cast",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-29.wav"
+    },
+    {
+      "name": "last_stand",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-30.wav"
+    },
+    {
+      "name": "iteration_open",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-31.wav"
+    },
+    {
+      "name": "foreman_repair",
+      "dataFormat": "wav",
+      "bitmapResolution": 1,
+      "rotationCenterX": 0,
+      "rotationCenterY": 0,
+      "path": "media/sounds/target-0-32.wav"
+    }
+  ]
+}
